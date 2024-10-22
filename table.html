@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body bgcolor="black" link="white" text="white">
+    <header align="center" >
+        <nav>
+            <a href="index.html"><button style="font-size: 25px; background-color:green; color: yellow;">Home</button></a>
+            <a href="about.html"><button style="font-size: 25px; background-color:green; color: yellow;">about</button></a>
+            <a href="form.html"><button style="font-size: 25px; background-color:green; color: yellow;">form</button></a>
+            <a href="table.html"><button style="font-size: 25px; background-color:green; color: yellow;">table</button></a>
+            <a href="league.html"><button style="font-size: 25px; background-color:green; color: yellow;">league</button></a>
+            <a href="contact.html"><button style="font-size: 25px; background-color:green; color: yellow;">contact</button></a>
+        </nav>
+     </header> 
+     <h1>Student Scores</h1>
+     <table border="5" width="600">
+        <thead>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>CA 1</th>
+            <th>CA 2</th>
+            <th>Exam</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mid</td>
+                <td>Maths</td>
+                <td>15</td>
+                <td>19</td>
+                <td>50</td>
+                <td>84</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jack</td>
+                <td>Maths</td>
+                <td>12</td>
+                <td>10</td>
+                <td>41</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+                <td>Maths</td>
+                <td>16</td>
+                <td>16</td>
+                <td>44</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ole</td>
+                <td>Maths</td>
+                <td>19</td>
+                <td>17</td>
+                <td>53</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Buru</td>
+                <td>Maths</td>
+                <td>13</td>
+                <td>17</td>
+                <td>48</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Sparrow</td>
+                <td>Maths</td>
+                <td>12</td>
+                <td>15</td>
+                <td>40</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ade</td>
+                <td>Maths</td>
+                <td>15</td>
+                <td>15</td>
+                <td>50</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bayo</td>
+                <td>Maths</td>
+                <td>10</td>
+                <td>15</td>
+                <td>45</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>ojo</td>
+                <td>Maths</td>
+                <td>11</td>
+                <td>12</td>
+                <td>39</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>oyo</td>
+                <td>Maths</td>
+                <td>10</td>
+                <td>14</td>
+                <td>40</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+     </table>
+     <h1>Using Colespan For Multi-column Headings</h1>
+     <table width="600" border="6">
+        <caption>Life expectancy by current age</caption>
+        <thead>
+            <tr>
+                <th colspan="2">65</th>
+                <th colspan="2">40</th>
+                <th colspan="2">20</th>
+
+            </tr>
+            <tr>
+                <th>men</th>
+                <th>women</th>
+                <th>men</th>
+                <th>women</th>
+                <th>men</th>
+                <th>women</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>82</td>
+                <td>85</td>
+                <td>78</td>
+                <td>82</td>
+                <td>77</td>
+                <td>81</td>
+            </tr>
+        </tbody>
+     </table>
+     <h1>Using Colespan for single row title</h1>
+     <table width="500" border="5">
+        <caption>invoice</caption>
+        <thead>
+            <tr>
+                <th>Item/Desc.</th>
+                <th>Qty</th>
+                <th>@</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paper clips</td>
+                <td>100</td>
+                <td>1.15</td>
+                <td>115.00</td>
+            </tr>
+            <tr>
+                <td>Paper</td>
+                <td>10</td>
+                <td>45.99</td>
+                <td>459.90</td>
+            </tr>
+            <tr>
+                <td>Wastepaper basket</td>
+                <td>2</td>
+                <td>17.99</td>
+                <td>35.99</td>
+            </tr>
+            <tr>
+                <th colspan="3">Sub-total</th>
+                <td>610.88</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax</th>
+                <td>7%</td>
+                <td>42.76</td>
+            </tr>
+            <tr>
+                <th colspan="3">Total</th>
+                <td>653.64</td>
+            </tr>
+        </tbody>
+     </table>
+     <h1>Table with rowspan</h1>
+     <table width="500" border="5">
+        <caption>favourite and least favourite things</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Musa</th>
+                <th>Ali</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">favourite</th>
+                <th>color</th>
+                <td>blue</td>
+                <td>purple</td>
+            </tr>
+            <tr>
+                <th>flavour</th>
+                <td>banana</td>
+                <td>chocolate</td>
+            </tr>
+            <tr>
+                <th rowspan="2">least favourite</th>
+                <th>color</th>
+                <td>yellow</td>
+                <td>pink</td>
+            </tr>
+            <tr>
+                <th>flavour</th>
+                <td>mint</td>
+                <td>walnut</td>
+            </tr>
+        </tbody>
+     </table>
+     <footer align="center"><p>&copy; Powered by Mahdi 2024</p></footer>
+</body>
+</html>

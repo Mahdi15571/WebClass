@@ -1,0 +1,26 @@
+.home{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    color: white;
+
+}
+#child{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 50px solid grey;
+}
+h4,h5,h6{
+    color: red;
+}
